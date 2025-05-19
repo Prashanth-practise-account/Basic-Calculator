@@ -1,0 +1,42 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+   position: absolute;
+   left: 40vw;
+   bottom: 15vw;
+}
+.container{
+   
+    /* background-color:antiquewhite; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    max-width: 40vh;
+    text-align: center;
+
+    /* max-height: 2000vh; */
+  
+    /* border: 20px solid red; */
+}
+.btn{
+    padding: 20px;
+    cursor: pointer;
+    
+}
+.row{
+    margin: 5.4px;
+}
+.container .text input{
+    margin: 5.5px;
+    padding: 2px 4vh 10px;
+    border-radius: 5.3px;
+    display: flex;
+    flex-direction: row;
+    text-align: right;
+    
+}
+
+
